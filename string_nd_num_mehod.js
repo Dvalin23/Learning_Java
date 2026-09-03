@@ -21,3 +21,13 @@ console.log(fileName.startsWith("report"))
 console.log(fileName.startsWith("draft"))
 console.log(fileName.endsWith(".pdf"))
 console.log(fileName.endsWith(".docs"))
+
+//slice and substring
+
+const extract = "ahmad"
+console.log(extract.slice(0,3))
+console.log(extract.slice(3))
+console.log(extract.slice(-3))
+console.log(extract.substring(0,3))
+console.log(extract.substring(3))
+console.log(extract.substring(-3))
